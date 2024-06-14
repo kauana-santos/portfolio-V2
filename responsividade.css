@@ -33,4 +33,14 @@
     .nav-menu.active{
         left: 0;
     }
+
+    .foto1{
+        height: 380px;
+    }
+}
+
+@media (max-width:500px) {
+    .foto1{
+        height: 0;
+    }
 }

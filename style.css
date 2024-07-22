@@ -26,7 +26,7 @@ a{
 }
 
 .navbar{
-    background-color: #f5d5f7;
+    background-color: #cca8ce;
     min-height: 70px;
     width: 100%;
     display: flex;
@@ -183,7 +183,7 @@ a{
 /* CONTATO */
 
 .container-contato{
-    background-color: #f5d5f7;
+    background-color: #cca8ce;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -206,7 +206,7 @@ a{
 /* TEXTO */
 
 .titulo-contato{
-    background-color: #f5d5f7;
+    background-color: #cca8ce;
     display: flex;
     justify-content: center;
 }
@@ -245,14 +245,14 @@ h2{
 
 /* SEPARADOR */
 .custom-shape-divider-top-1718127858 {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     overflow: hidden;
     line-height: 0;
 }
 
 .custom-shape-divider-top-1718127858  svg {
-    position: relative;
+    /* position: relative; */
     display: block;
     width: calc(125% + 1.3px);
     height: 93px;

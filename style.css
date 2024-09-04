@@ -26,14 +26,15 @@ a{
 }
 
 .navbar{
-    background-color: #cca8ce;
+    background-color: #eb93f04c;
+    backdrop-filter: blur(10px);
     min-height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 60px;
-    box-shadow: 1px 1px 5px #a8a8a8;
+    box-shadow: 1px 1px 3px #e6e6e6a8;
     position: fixed;
 }
 
@@ -155,12 +156,14 @@ a{
 .container-projetos{
     min-height: 90vh;
     display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    flex-wrap: wrap;
+    padding: 20px;
     margin-top: 10vh;
-
-
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .cards{
@@ -170,11 +173,19 @@ a{
     min-height: fit-content;
     border-radius: 6px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .projeto-foto{
     border-radius: 6px 6px 0px 0px;
     width: 300px;
+    transition: 0.8s all ease-in-out;
+    
+}
+.projeto-foto:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%)
+
 }
 
 .projeto-descricao{
@@ -185,7 +196,7 @@ a{
 /* CONTATO */
 
 .container-contato{
-    background-color: #cca8ce;
+    background-color: #f5d5f7;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -208,15 +219,20 @@ a{
 /* TEXTO */
 
 .titulo-contato{
-    background-color: #cca8ce;
+    background-color: #f5d5f7;
     display: flex;
     justify-content: center;
 }
 
-h1, .titulo-home{
+h1, .titulo-home, .titulo-projetos{
     font-family: 'Saira', helvetica;
     font-size: 25px;
     font-weight: 400;
+}
+
+.titulo-projetos{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .titulo-home{

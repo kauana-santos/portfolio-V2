@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor-fundo:#DCE0D9;
+    --cor-do-texto:#222222;
+    --cor-de-detalhes:#9C7A97;
+}
 
 
 html{
@@ -11,6 +16,7 @@ html{
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    color: var(--cor-do-texto);
     
 }
 
@@ -20,13 +26,13 @@ li{
 }
 
 a{
-    color: #000;
+    color:var(--cor-do-texto);
     text-decoration: none;
     font-family:  Helvetica, sans-serif;
 }
 
 .navbar{
-    background-color: #eb93f04c;
+    background-color: var(--cor-de-detalhes);
     backdrop-filter: blur(10px);
     min-height: 70px;
     width: 100%;
@@ -34,7 +40,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 0 60px;
-    box-shadow: 1px 1px 3px #e6e6e6a8;
+    box-shadow: 1px 1px 3px #70707075;
     position: fixed;
 }
 
@@ -101,7 +107,7 @@ a{
     align-items: center;
 }
 
-.perfil-github-conatiner{
+.informacoes-conatiner{
     display: flex;
     flex-direction: column;
     padding: 7px;
@@ -131,7 +137,7 @@ a{
 .container-sobre {
     align-items: center;
     justify-content: center;
-    background-color: #f5d5f7;
+    background-color: var(--cor-de-detalhes);
     padding: 7px;
 }
 
@@ -196,12 +202,12 @@ a{
 /* CONTATO */
 
 .container-contato{
-    background-color: #f5d5f7;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
+    background-color: var(--cor-de-detalhes);
     min-height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -212,14 +218,13 @@ a{
     justify-content: center;
     align-items: center;
     width: 300px;
-    height: 200px;
-    
+    height: fit-content;
+
 }
 
 /* TEXTO */
 
 .titulo-contato{
-    background-color: #f5d5f7;
     display: flex;
     justify-content: center;
 }
@@ -241,6 +246,8 @@ h1, .titulo-home, .titulo-projetos{
 
 .titulo-sobre{
     font-size: 27px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .p-projetos{
@@ -262,25 +269,22 @@ h2{
 }
 
 /* SEPARADOR */
-.custom-shape-divider-top-1718127858 {
-    /* position: absolute; */
+.custom-shape-divider-top-1718127858 { 
     width: 100%;
     overflow: hidden;
     line-height: 0;
 }
 
 .custom-shape-divider-top-1718127858  svg {
-    /* position: relative; */
     display: block;
     width: calc(125% + 1.3px);
     height: 93px;
 }
 
 .custom-shape-divider-top-1718127858 .shape-fill {
-    fill: #f5d5f7;
+    fill: var(--cor-de-detalhes);
     
 }
-
 
 .wave .shape-fill{
     fill: #fff;

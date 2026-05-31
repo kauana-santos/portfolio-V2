@@ -14,28 +14,28 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 
 const projects = [
     {
-        name: "notelab",
-        img: " ",
-        link:"",
+        name: "NoteLab",
+        img: "./img/notelab.png",
+        link:"https://km-keg2.onrender.com/",
         desc:"Projeto relizado com java Spring web"
     },
     {
         name: "Organo",
-        img: " ",
-        link:"",
+        img: "./img/organo.png",
+        link:"https://organo-three-ecru.vercel.app/",
         desc:"Projeto relizado com java Spring web"
     },
     {
-        name: "atividade Java",
-        img: " ",
-        link:"",
+        name: "Previsão do tempo",
+        img: "./img/prev-temp.png",
+        link:"https://kauana-santos.github.io/previsao-do-tempo/",
         desc:"Projeto relizado com java Spring web"
     },
     {
         
-        name: "galeria",
-        img: " ",
-        link:"",
+        name: "Galeria",
+        img: "./img/galeria.png",
+        link:"https://kauana-santos.github.io/Galeria-Sass/",
         desc:"Projeto relizado com java Spring web"
     },
 ]

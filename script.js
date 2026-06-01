@@ -17,26 +17,26 @@ const projects = [
         name: "NoteLab",
         img: "./img/notelab.png",
         link:"https://km-keg2.onrender.com/",
-        desc:"Projeto relizado com java Spring web"
+        desc:"Desenvolvimento da parte do front-end utilizando html, css e javascript."
     },
     {
         name: "Organo",
         img: "./img/organo.png",
         link:"https://organo-three-ecru.vercel.app/",
-        desc:"Projeto relizado com java Spring web"
+        desc:"Projeto relizado com html, css e javascript."
     },
     {
         name: "Previsão do tempo",
         img: "./img/prev-temp.png",
         link:"https://kauana-santos.github.io/previsao-do-tempo/",
-        desc:"Projeto relizado com java Spring web"
+        desc:"Projeto relizado com html, css e javascript, utilizando a API da OpenWeather."
     },
     {
         
         name: "Galeria",
         img: "./img/galeria.png",
         link:"https://kauana-santos.github.io/Galeria-Sass/",
-        desc:"Projeto relizado com java Spring web"
+        desc:"Projeto relizado com html e sass."
     },
 ]
 

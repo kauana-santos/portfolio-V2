@@ -150,7 +150,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     text-indent: 1.25cm;
-    text-align: justify;
     line-height: 24px;
     max-width: 780px;
     font-size: 18px;

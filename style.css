@@ -20,7 +20,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    font-family: "Inter";
     color: var(--cor-do-texto);
     
 }
@@ -119,19 +119,6 @@ a{
     
 }
 
-.tecnologias{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #fff;
-    margin-bottom: 30px;
-    
-}
-
-.tecnologias-ft{
-    height: 30px;
-    padding: 0 5px;
-}
 
 .foto1{
     height: 490px;
@@ -160,14 +147,41 @@ a{
     font-size: 18px;
 }
 
+/* Tecnologias*/
+
+#tecnologias h2{
+    text-align: center;
+    
+}
+.container-tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    
+}
+
+.tecnologias{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;
+    margin-bottom: 30px;
+    
+}
+
+.tecnologias-ft{
+    height: 60px;
+    padding: 0 5px;
+}
 
 /* PROJETOS */
 
 .container-projetos{
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     padding: 20px;
-    margin-top: 10vh;
 }
 .cards-container{
     display: flex;
@@ -233,13 +247,24 @@ a{
     justify-content: center;
 }
 
-h1, .titulo-home, .titulo-projetos{
-    font-family: 'Saira', helvetica;
+h1, .titulo-home {
+    font-family: 'IBM Plex Mono', helvetica;
     font-size: 25px;
     font-weight: 400;
 }
 
+#tecnologias h2{
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .titulo-projetos{
+    font-family: "Saira";
+    font-size: 25px;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 10px;
 }

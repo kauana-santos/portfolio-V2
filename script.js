@@ -51,11 +51,14 @@ const cardsHTML = projects.map(project => {
                      class="projeto-foto">
             </a>
 
-            <div class="projeto-descricao">
-                <h3>${project.name}</h3>
-                <p class="p-projetos">
-                    ${project.desc}
-                </p>
+            <div class="container-descricao">
+                <div class="container-titulo">
+                    <h3>${project.name}</h3>
+                    <a href="${project.github}" target="_blank"> Github</a>
+                </div>
+                <div class="projeto-descricao">
+                    <p class="p-projetos">${project.desc}</p>
+                </div>
             </div>
         </div>
     `;

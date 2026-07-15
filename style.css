@@ -30,7 +30,6 @@ a{
 }
 
 .navbar{
-    
     backdrop-filter: blur(10px);
     min-height: 70px;
     width: 100%;
@@ -208,12 +207,12 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .info{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     width: 300px;

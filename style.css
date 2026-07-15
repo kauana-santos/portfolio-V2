@@ -111,7 +111,7 @@ a{
 }
 
 .redes-sociais img{
-    height: 42px;
+    height: 38px;
 }
 
 /* Sobre */
@@ -199,11 +199,14 @@ a{
 
 /* CONTATO */
 
-.container-contato{
+#contato{
     background-color: var(--cor-de-detalhes);
     min-height: 18vh;
+}
+
+.container-contato{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -215,6 +218,14 @@ a{
     align-items: center;
     width: 300px;
     height: fit-content;
+}
+
+.container-gif{
+    margin-top: 20px;
+}
+
+.gif-gato{
+    width: 190px;
 }
 
 /* TEXTO */
@@ -263,6 +274,7 @@ a{
 .titulo-contato{
     font-family: "Ballet", cursive;
     display: flex;
+    font-size: 55px;
     justify-content: center;
 }
 
@@ -271,5 +283,3 @@ a{
     font-size: 20px;
     
 }
-
-/* testee */

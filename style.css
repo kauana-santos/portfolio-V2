@@ -71,11 +71,16 @@ a{
     background-color: rgb(0, 0, 0);
 }
 
+/* HOME */
+
 #section-home{
     width: 100%;
-}
+    background-image: url("./img/svg/fone.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 700px;
 
-/* HOME */
+}
 
 .container{ 
     margin: 0 auto;
@@ -119,6 +124,7 @@ a{
 }
 
 .paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
     text-indent: 1.25cm;
@@ -172,7 +178,7 @@ a{
     border-radius: 6px;
     margin-bottom: 20px;
     overflow: hidden;
-
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
 }
 
@@ -187,8 +193,8 @@ a{
     flex-direction: column;
 }
 
-.projeto-descricao{
-    margin: auto 20px;
+.projeto-descricao, .container-titulo{
+    margin: auto 10px;
 }
 
 /* CONTATO */

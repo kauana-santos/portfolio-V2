@@ -15,26 +15,26 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 const projects = [
     {
         name: "NoteLab",
-        img: "./img/notelab.png",
+        img: "./img/projetos/notelab.png",
         link:"https://km-keg2.onrender.com/",
         desc:"Desenvolvimento da parte do front-end utilizando html, css e javascript."
     },
     {
         name: "Organo",
-        img: "./img/organo.png",
+        img: "./img/projetos/organo.png",
         link:"https://organo-three-ecru.vercel.app/",
         desc:"Projeto relizado com html, css e javascript."
     },
     {
         name: "Previsão do tempo",
-        img: "./img/prev-temp.png",
+        img: "./img/projetos/prev-temp.png",
         link:"https://kauana-santos.github.io/previsao-do-tempo/",
         desc:"Projeto relizado com html, css e javascript, utilizando a API da OpenWeather."
     },
     {
         
         name: "Galeria",
-        img: "./img/galeria.png",
+        img: "./img/projetos/galeria.png",
         link:"https://kauana-santos.github.io/Galeria-Sass/",
         desc:"Projeto relizado com html e sass."
     },

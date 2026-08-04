@@ -2,8 +2,8 @@
 
 
 :root{
-    --cor-fundo:#09033E;
-    --cor-do-texto:#ffffff;
+    --cor-fundo:#121c5c;
+    --cor-do-texto:#f5f5f5;
     --cor-de-detalhes:#675FAB;
 }
 
@@ -135,10 +135,12 @@ a{
 /* Tecnologias*/
 
 #tecnologias{
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color: var(--cor-de-detalhes);
 }
 .container-tecnologias{
     display: flex;
@@ -147,10 +149,6 @@ a{
     min-height: 10vh; 
 }
 
-#tecnologias{
-    background-color: var(--cor-de-detalhes);
-    
-}
 
 .tecnologias-ft{
     height: 60px;
@@ -192,8 +190,12 @@ a{
     flex-direction: column;
 }
 
-.projeto-descricao, .container-titulo{
-    margin: auto 10px;
+.container-titulo{
+    margin: 10px 6px;
+}
+
+.projeto-descricao{
+    margin-top: 9px;
 }
 
 /* CONTATO */
@@ -265,9 +267,13 @@ a{
     font-size: 28px;
 }
 
+h3{
+    font-family: 'Saira', helvetica;
+}
+
 .p-projetos{
-    text-indent: 1.05cm;
-    
+    text-indent: 1.00cm;
+    font-family: 'Saira', helvetica;
 }
 
 .titulo-contato{
@@ -281,4 +287,8 @@ a{
     font-family: 'Saira', helvetica;
     font-size: 20px;
     
+}
+
+.projeto-link{
+    margin-top: 10px;
 }

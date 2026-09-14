@@ -21,7 +21,8 @@
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #cca8ce;
+        background-color: var(--cor-fundo);
+        backdrop-filter: blur(10px);
         width: 100%;
         transition: 0.3s;
     }

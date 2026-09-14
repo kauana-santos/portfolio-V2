@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 :root{
-    --cor-fundo:#121c5c;
-    --cor-do-texto:#f5f5f5;
-    --cor-de-detalhes:#675FAB;
+    --cor-fundo:#FDF4E5;
+    --cor-do-texto:#25171A;
+    --cor-de-detalhes:#6f8368c5;
+    --fonte-titulos: "Belgrano", serif;
+    --fonte-textos: "Inter", sans-serif;
 }
 
 body{
@@ -15,7 +17,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter";
+    font-family:  var(--fonte-textos);
     color: var(--cor-do-texto);
 }
 
@@ -24,9 +26,8 @@ li{
 }
 
 a{
-    color:var(--cor-do-texto);
+    color: var(--cor-do-texto);
     text-decoration: none;
-    font-family:  Helvetica, sans-serif;
 }
 
 .navbar{
@@ -52,7 +53,7 @@ a{
 }
 
 .nav-link:hover{
-    color: #8a1c90;
+    color: #40244d;
 }
 
 .hamburguer{
@@ -74,11 +75,6 @@ a{
 
 #section-home{
     width: 100%;
-    background-image: url("./img/svg/fone.svg");
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 700px;
-
 }
 
 .container{ 
@@ -89,7 +85,6 @@ a{
     flex-wrap: nowrap;
    justify-content: center;
     flex-direction: column;
-    
 }
 
 .linha-container{
@@ -201,7 +196,6 @@ a{
 /* CONTATO */
 
 #contato{
-    background-color: var(--cor-de-detalhes);
     min-height: 18vh;
 }
 
@@ -232,32 +226,31 @@ a{
 /* TEXTO */
 
  .titulo-home {
-    font-family: sans-serif;
     font-size: 90px;
     text-align: center;
 }
 
 .subtitulo-home{
-    font-family: "Ballet", cursive;
+    font-family: var(--fonte-titulos);
     font-size: 40px;
 }
 
 .titulo-sobre{
-    font-family: "Ballet", cursive;
+    font-family: var(--fonte-titulos);
     font-size: 55px;
     text-align: center;
     margin-bottom: 40px;
 }
 
 #tecnologias h2{
-    font-family: "Ballet", cursive;
+    font-family: var(--fonte-titulos);
     font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
 }
 
 .titulo-projetos{
-    font-family: "Ballet", cursive;
+    font-family: var(--fonte-titulos);
     font-size: 55px;
     text-align: center;
     margin-bottom: 10px;
@@ -267,17 +260,8 @@ a{
     font-size: 28px;
 }
 
-h3{
-    font-family: 'Saira', helvetica;
-}
-
-.p-projetos{
-    text-indent: 1.00cm;
-    font-family: 'Saira', helvetica;
-}
-
 .titulo-contato{
-    font-family: "Ballet", cursive;
+    font-family: var(--fonte-titulos);
     display: flex;
     font-size: 55px;
     justify-content: center;

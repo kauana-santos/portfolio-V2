@@ -17,18 +17,21 @@ const projects = [
         name: "NoteLab",
         img: "./img/projetos/notelab.png",
         link:"https://km-keg2.onrender.com/",
+        figma: "",
         desc:"Desenvolvimento da parte do front-end utilizando html, css e javascript."
     },
     {
         name: "Organo",
         img: "./img/projetos/organo.png",
         link:"https://organo-three-ecru.vercel.app/",
+        figma: "",
         desc:"Projeto relizado com html, css e javascript."
     },
     {
         name: "Previsão do tempo",
         img: "./img/projetos/prev-temp.png",
         link:"https://kauana-santos.github.io/previsao-do-tempo/",
+        figma: "",
         desc:"Projeto relizado com html, css e javascript, utilizando a API da OpenWeather."
     },
     {
@@ -36,6 +39,7 @@ const projects = [
         name: "Galeria",
         img: "./img/projetos/galeria.png",
         link:"https://kauana-santos.github.io/Galeria-Sass/",
+        figma: "",
         desc:"Projeto relizado com html e sass."
     },
 ]
@@ -55,6 +59,7 @@ const cardsHTML = projects.map(project => {
                 <div class="container-titulo">
                     <h3>${project.name}</h3>
                     <a href="${project.github}" target="_blank" class="projeto-link"> Github</a>
+                    <a href="${project.figma}" target="_blank" class="projeto-link"> Figma</a>
 
                     <div class="projeto-descricao">
                     <p class="p-projetos">${project.desc}</p>

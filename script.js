@@ -46,13 +46,20 @@ const cardsHTML = projects.map(project => {
     return `
         <div class="cards">
             <a href="${project.link}" target="_blank">
-                <img src="${project.img}" 
-                     alt="${project.name}" 
+                <img src="${project.img}"
+                     alt="${project.name}"
                      class="projeto-foto">
             </a>
 
             <div class="projeto-descricao">
                 <h3>${project.name}</h3>
+
+                <a href="${project.github}" 
+                   target="_blank"
+                   class="link-github">
+                    Ver no GitHub
+                </a>
+
                 <p class="p-projetos">
                     ${project.desc}
                 </p>
